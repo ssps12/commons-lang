@@ -22,7 +22,7 @@ jdk:
 
 matrix:
   include:
-    - os: linux-ppc64le
+    - os: arm64
       jdk: openjdk8
   allow_failures:
     - jdk: openjdk-ea
